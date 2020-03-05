@@ -1,0 +1,41 @@
+{
+  "name": "abovesky/think-nestedset",
+  "description": "Nested Set Model for ThinkPHP 5.1 and up",
+  "type": "think-extend",
+  "keywords": [
+    "thinkphp",
+    "nested set",
+    "tree",
+    "database",
+    "hierarchy"
+  ],
+  "homepage": "https://github.com/abovesky/think-nestedset",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "abovesky",
+      "email": "abovesky@qq.com"
+    }
+  ],
+  "require": {
+    "topthink/framework": "5.1.*",
+    "topthink/think-helper": "3.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "think\\nestedset\\": "src/"
+    },
+    "files": [
+      "src/helper.php"
+    ]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "think": {
+      "config": {
+        "nestedset": "src/config/nestedset.php"
+      }
+    }
+  }
+}
